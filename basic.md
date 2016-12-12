@@ -1,3 +1,32 @@
+以下划线开头的标识符是有特殊意义的。以单下划线开头（_foo）的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用"from xxx import *"而导入；
+以双下划线开头的（__foo）代表类的私有成员；以双下划线开头和结尾的（__foo__）代表python里特殊方法专用的标识，如__init__（）代表类的构造函数。
+
+##定位模块
+#import sys 模块搜索路径存储在system模块的sys.path变量中。变量里包含当前目录，PYTHONPATH和由安装过程决定的默认目录。
+
+Python会智能地猜测一个变量是局部的还是全局的，它假设任何在函数内赋值的变量都是局部的。
+因此，如果要给全局变量在一个函数里赋值，必须使用global语句。
+
+dir()函数一个排好序的字符串列表，内容是一个模块里定义过的名字。
+
+##创建类
+#使用class语句来创建一个新类，class之后为类的名称并以冒号结尾，如下实例:
+#可以添加，删除，修改类的属性
+#getattr(obj, name[, default]) : 访问对象的属性。
+#hasattr(obj,name) : 检查是否存在一个属性。
+#setattr(obj,name,value) : 设置一个属性。如果属性不存在，会创建一个新属性。
+#delattr(obj, name) : 删除属性。
+
+##Python内置类属性
+#__dict__ : 类的属性（包含一个字典，由类的数据属性组成）
+#__doc__ :类的文档字符串
+#__name__: 类名
+#__module__: 类定义所在的模块（类的全名是'__main__.className'，如果类位于一个导入模块mymod中，那么className.__module__ 等于 mymod）
+#__bases__ : 类的所有父类构成元素（包含了一个由所有父类组成的元组）
+#class_name = object.__class__.__name__
+#__private_attrs：两个下划线开头，声明该属性为私有，不能在类的外部被使用或直接访问。在类内部的方法中使用时 self.__private_attrs
+#__private_method：两个下划线开头，声明该方法为私有方法，不能在类地外部调用。在类的内部调用 self.__private_methods
+
 <a href="http://www.cnblogs.com/dreamer-fish/p/3821762.html">http://www.cnblogs.com/dreamer-fish/p/3821762.html</a>
 
 执行环境
