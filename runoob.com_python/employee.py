@@ -14,6 +14,7 @@ class Employee:
 
    def displayEmployee(self):
       print(self.__class__.__name__)
+      print(self.__class__.__doc__)
       print("Name : ", self.name,  ", Salary: ", self.salary)
 
 "创建 Employee 类的第一个对象"
