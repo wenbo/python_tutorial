@@ -2,3 +2,6 @@
 http://www.cnblogs.com/charlotte77/p/5629865.html
 
 Poll的笔记：<a href="http://www.cnblogs.com/maybe2030/p/5597716.html">[Mechine Learning & Algorithm] 神经网络基础</a>
+
+深度学习BP算法的推导（附加RNN,LSTM的推导说明）
+http://blog.csdn.net/zhuanshenweiliu/article/details/42267993
