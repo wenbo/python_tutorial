@@ -5,3 +5,7 @@ Poll的笔记：<a href="http://www.cnblogs.com/maybe2030/p/5597716.html">[Mechi
 
 深度学习BP算法的推导（附加RNN,LSTM的推导说明）
 http://blog.csdn.net/zhuanshenweiliu/article/details/42267993
+
+http://deeplearning.stanford.edu/tutorial/
+http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B
+http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning
