@@ -1,3 +1,5 @@
+http://rebuild.fm/people/naoya/
+
 pip install -i http://pypi.douban.com/simple/ python-tk
 pip install -i http://pypi.douban.com/simple/ tkinter
 
