@@ -15,3 +15,4 @@ Entering a blank line repeats the last command entered. Exception: if the last c
 
 # h(elp) [command]
 Without argument, print the list of available commands. With a command as argument, print help about that command.
+# pp   打印变量的值
